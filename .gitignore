@@ -1,0 +1,2 @@
+# Ignore staging file - managed server-side on staging and prod
+CNAME
