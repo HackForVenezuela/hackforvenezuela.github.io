@@ -123,16 +123,16 @@ body {
 .faq-q {
     font-weight: bold;
     text-align: center;
-    /* margin-bottom: -10px; */
+    margin-bottom: -10px;;
     font-size: 1.2em;
     line-height: 1em;
 }
 
 .faq {
-    /* padding: 1vw; */
-    display: block;
+    padding: 1vw;
     text-align: center;
     position: relative;
+    display: inline-block;
     font-size: 1em; 
     font-style: italic;
 }
@@ -182,7 +182,6 @@ body {
 .stat-tile {
     display: inline-block;
     width: 15vw;
-    height: 20vw;
     margin: 2.5vw;
     overflow: hidden;
     margin-left: 5vw; 
