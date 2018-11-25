@@ -108,6 +108,10 @@ body {
     list-style-type: none;
 }
 
+.goals li {
+    font-weight: normal;
+}
+
 .goal-tile {
     display: inline-block;
     width: 15vw;
@@ -126,6 +130,9 @@ body {
     /* margin-bottom: -10px; */
     font-size: 1.2em;
     line-height: 1em;
+    font-style: italic;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .faq {
@@ -133,8 +140,13 @@ body {
     display: block;
     text-align: center;
     position: relative;
-    font-size: 1em; 
-    font-style: italic;
+    font-size: 1.05em; 
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.faq a {
+    color: #303772;
 }
 
 .goal {
@@ -142,12 +154,14 @@ body {
     position: relative;
     display: inline-block;
     font-size: 1.2em; 
+    vertical-align: text-top;
 }
 
 .goals-img {
     display: inline-block;
     height: 2em;
     width: 2em;
+    vertical-align: text-top;
 }
 
 .sponsor-img {
@@ -182,10 +196,10 @@ body {
 .stat-tile {
     display: inline-block;
     width: 15vw;
-    height: 20vw;
     margin: 2.5vw;
-    overflow: hidden;
+    overflow: visible;
     margin-left: 5vw; 
+    vertical-align: text-top;
 }
 
 .stat {
@@ -299,10 +313,15 @@ h1 {
     line-height: 2.1em;
 }
 
+.list hr {
+    margin-left: 10vw;
+    margin-right: 20vw;
+}
+
 .register-button {
-    background-color: lightgrey;
-    border: solid 3px darkgrey;
-    box-shadow: 0px 0px 100px grey inset;
+    background-color: #303772;
+    border: solid 3px #303772;
+    /* box-shadow: 0px 0px 100px #303772 inset; */
     border-radius: 10px;
     display: block;
     width: 40%;
@@ -313,7 +332,8 @@ h1 {
     margin-top: 5vh;
     margin-left: auto;
     margin-right: auto;
-    color: darkslategrey;
+    color: white;
+    text-shadow: none;
 }
 
 .nav {
@@ -352,7 +372,7 @@ h1 {
     .stat-tile {
         width: 40vw;
         margin-left: 5vw;
-        min-height: 61vw;
+        /* min-height: 61vw; */
     }
 
     .stat-img {
