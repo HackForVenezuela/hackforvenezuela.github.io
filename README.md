@@ -1,7 +1,7 @@
 # HackForVenezuela Website
 
 ## Description
-### This website serves as an online presence for HackForVenezuela events. See below for instructions on how to edit or contribute to the page.
+This website serves as an online presence for HackForVenezuela events. See below for instructions on how to edit or contribute to the page.
 
 #
 
