@@ -24,7 +24,7 @@ This website serves as an online presence for HackForVenezuela events. See below
 Ensure that you make all changes on the `gh-pages` branch of your fork! If using GitHub Pages to preview your changes, you can view any pushed changes live at:
 ```https://<your_username>.github.io/hackforvenezuela.github.io```
 
-For help using git, checkout the official GitHub guides at https://guides.github.com/.
+For help using git, checkout the official GitHub guides at https://guides.github.com/
 
 ## Submitting changes for review
 1. On your forked branch, click the `New Pull Request` button
